@@ -10,3 +10,4 @@ Then simply run the MATLAB code but before that simply just change the variable 
 
 The predicted value is printed in the console and the plot for values is plotted like this : 
 ![ExamplePlot](/SensexPlotSample.jpg)
+![ExamplePredictedValue](/PredictedValueSample.jpg)
