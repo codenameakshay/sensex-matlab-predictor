@@ -3,7 +3,7 @@ import quandl, pyperclip
 quandl.ApiConfig.api_key = "dGS1yZ1R5pr4SyzYni-H"
 quandl.read_key()
 bsesensex = list(quandl.get("BSE/SPBSS5IP", returns="numpy"))
-#bse = list(quandl.get("BSE/BOM539397", returns="numpy"))
+# bse = list(quandl.get("BSE/BOM539397", returns="numpy"))
 lastn = int(input("Enter the number of last n days you want to take data for (0 for all) : "))
 openval = []
 if lastn != 0:
